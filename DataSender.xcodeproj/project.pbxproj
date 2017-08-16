@@ -12,6 +12,13 @@
 		EA5A0E541F43C8D7001BFF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0E521F43C8D7001BFF49 /* Main.storyboard */; };
 		EA5A0E561F43C8D7001BFF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0E551F43C8D7001BFF49 /* Assets.xcassets */; };
 		EA5A0E591F43C8D7001BFF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5A0E571F43C8D7001BFF49 /* LaunchScreen.storyboard */; };
+		EA5A0E611F43CA94001BFF49 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E601F43CA94001BFF49 /* SecondViewController.swift */; };
+		EA5A0E641F43D6E3001BFF49 /* FinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E631F43D6E3001BFF49 /* FinkViewController.swift */; };
+		EA5A0E661F43D6FA001BFF49 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E651F43D6FA001BFF49 /* YellowViewController.swift */; };
+		EA5A0E681F43DAC4001BFF49 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E671F43DAC4001BFF49 /* BlueViewController.swift */; };
+		EA5A0E6A1F43DACC001BFF49 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E691F43DACC001BFF49 /* GreenViewController.swift */; };
+		EA5A0E6C1F43E4A2001BFF49 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E6B1F43E4A2001BFF49 /* PurpleViewController.swift */; };
+		EA5A0E6E1F43E4B3001BFF49 /* MintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A0E6D1F43E4B3001BFF49 /* MintViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,14 @@
 		EA5A0E551F43C8D7001BFF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA5A0E581F43C8D7001BFF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA5A0E5A1F43C8D7001BFF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5A0E601F43CA94001BFF49 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EA5A0E621F43D189001BFF49 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		EA5A0E631F43D6E3001BFF49 /* FinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinkViewController.swift; sourceTree = "<group>"; };
+		EA5A0E651F43D6FA001BFF49 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		EA5A0E671F43DAC4001BFF49 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		EA5A0E691F43DACC001BFF49 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		EA5A0E6B1F43E4A2001BFF49 /* PurpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		EA5A0E6D1F43E4B3001BFF49 /* MintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MintViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,14 @@
 				EA5A0E551F43C8D7001BFF49 /* Assets.xcassets */,
 				EA5A0E571F43C8D7001BFF49 /* LaunchScreen.storyboard */,
 				EA5A0E5A1F43C8D7001BFF49 /* Info.plist */,
+				EA5A0E601F43CA94001BFF49 /* SecondViewController.swift */,
+				EA5A0E621F43D189001BFF49 /* MyPlayground.playground */,
+				EA5A0E631F43D6E3001BFF49 /* FinkViewController.swift */,
+				EA5A0E651F43D6FA001BFF49 /* YellowViewController.swift */,
+				EA5A0E671F43DAC4001BFF49 /* BlueViewController.swift */,
+				EA5A0E691F43DACC001BFF49 /* GreenViewController.swift */,
+				EA5A0E6B1F43E4A2001BFF49 /* PurpleViewController.swift */,
+				EA5A0E6D1F43E4B3001BFF49 /* MintViewController.swift */,
 			);
 			path = DataSender;
 			sourceTree = "<group>";
@@ -136,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5A0E611F43CA94001BFF49 /* SecondViewController.swift in Sources */,
 				EA5A0E511F43C8D7001BFF49 /* ViewController.swift in Sources */,
+				EA5A0E641F43D6E3001BFF49 /* FinkViewController.swift in Sources */,
 				EA5A0E4F1F43C8D7001BFF49 /* AppDelegate.swift in Sources */,
+				EA5A0E6C1F43E4A2001BFF49 /* PurpleViewController.swift in Sources */,
+				EA5A0E681F43DAC4001BFF49 /* BlueViewController.swift in Sources */,
+				EA5A0E661F43D6FA001BFF49 /* YellowViewController.swift in Sources */,
+				EA5A0E6A1F43DACC001BFF49 /* GreenViewController.swift in Sources */,
+				EA5A0E6E1F43E4B3001BFF49 /* MintViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +331,7 @@
 				EA5A0E5F1F43C8D7001BFF49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
